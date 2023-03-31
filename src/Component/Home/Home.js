@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import CareerGig from "../CareerGig/CareerGig";
 
 const Home = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <CareerGig />
+    </div>
+  );
 };
 
 export default Home;
