@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <RouterProvider router={router}></RouterProvider>
-      <h1>I'm creating my branch</h1>
     </div>
   );
 }
