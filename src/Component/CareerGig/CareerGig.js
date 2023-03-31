@@ -44,12 +44,12 @@ const CareerGig = () => {
           </p>
         </div>
       </section>
-      <section className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mt-20">
+      <section className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 mt-20 px-5">
         <div className="grid lg:grid-cols-3  md:grid-cols-2  justify-items-center gap-y-4 gap-x-0">
-          <img src={png1} alt="" className="w-[200px] h-[195px] lg:pl-5" />
+          <img src={png1} alt="" className="w-[200px] h-[195px] " />
           <img src={png2} alt="" className="w-[200px] h-[195px]" />
           <img src={png3} alt="" className="w-[200px] h-[195px]" />
-          <img src={png4} alt="" className="w-[200px] h-[195px] lg:pl-5" />
+          <img src={png4} alt="" className="w-[200px] h-[195px]" />
           <img src={png5} alt="" className="w-[200px] h-[195px]" />
           <img src={png6} alt="" className="w-[200px] h-[195px]" />
         </div>
