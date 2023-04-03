@@ -9,7 +9,7 @@ const Banner = () => {
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img src={dream2} alt='' className="max-w-sm  rounded-lg shadow-2xl relative left-36" />
     <img src={dream3} alt='' className="max-w-sm rounded-lg shadow-2xl absolute right-20 top-1/2 " />
-    <div>
+    <div className="mx-5">
       <h1 className="text-5xl font-bold text-white leading-normal">Find your dream <span className='text-[#C8C000]'>job</span> 
       <br/>
       full time, part time</h1>
