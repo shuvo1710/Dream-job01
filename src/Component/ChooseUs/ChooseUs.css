@@ -1,0 +1,18 @@
+.choose__background{
+    /* background-color: #011025; */
+    background-image: url('../../assets/choose_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card__background{
+    background-color: #011025;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .choose__icon{
+    color: #C8C000;
+    font-size: 30px;
+  }
+  .started__btn{
+    background-color: #C8C000;
+    color: #011025;
+  }
