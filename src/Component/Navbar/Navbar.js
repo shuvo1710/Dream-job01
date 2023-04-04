@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import dreamJob from '../../assets/dream.png';
 // import dreamJob from '../../assets/Dream-job-logo.png';
 
@@ -53,14 +54,14 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/about"
                   aria-label="About us"
                   title="About us"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   About us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
