@@ -9,7 +9,7 @@ import { Icon } from "@iconify/react";
 
 const CareerGig = () => {
   return (
-    <div className="py-12">
+    <div className="pb-12 pt-36">
       <section className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 text-center">
         <div className="border-r border-[#DFDFDF]">
           <h2 className="text-4xl font-medium leading-10 text-[#999FA8]">
