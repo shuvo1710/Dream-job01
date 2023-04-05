@@ -1,13 +1,17 @@
+
+import React, { useState } from "react";
+import dreamJob from "../../assets/dream.png";
+import { Link } from "react-router-dom";
+
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import dreamJob from '../../assets/dream.png';
+
 // import dreamJob from '../../assets/Dream-job-logo.png';
 
 const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    return (
-        <div class="bg-[#011025]">
+  return (
+    <div class="bg-[#011025]">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <div class="flex items-center">
@@ -17,31 +21,31 @@ const Navbar = () => {
               title="Company"
               class="inline-flex items-center mr-8"
             >
-              <img className='w-8' src={dreamJob} alt=''/>
+              <img className="w-8" src={dreamJob} alt="" />
               <span class="ml-2 text-xl font-bold tracking-wide text-[#C8C000] uppercase">
                 DreamJob
               </span>
             </a>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   aria-label="Our product"
                   title="Our product"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   Product
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/feature"
                   aria-label="Our product"
                   title="Our product"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li>
                 <a
@@ -120,7 +124,7 @@ const Navbar = () => {
                         title="Company"
                         class="inline-flex items-center"
                       >
-                        <img className='w-8' src={dreamJob} alt=''/>
+                        <img className="w-8" src={dreamJob} alt="" />
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 text-[#C8C000] uppercase">
                           DreamJob
                         </span>
@@ -213,7 +217,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default Navbar;
