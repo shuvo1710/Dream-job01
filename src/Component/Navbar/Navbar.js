@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import dreamJob from "../../assets/dream.png";
 import { Link } from "react-router-dom";
 
-import React, { useState } from 'react';
 
-// import dreamJob from '../../assets/Dream-job-logo.png';
+
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
