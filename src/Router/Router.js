@@ -5,24 +5,18 @@ import Home from "../Component/Home/Home";
 import Features from "../Component/Features/Features";
 
 export const router = createBrowserRouter([
-
-
-
-    {
-        path:'/',
-        element:<Main/>,
-        children:[
-            {
-                path:"/",
-                element:<Home/>
-            },
-              {
+  {
+    path: "/",
+    element: <Main />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
         path: "/feature",
         element: <Features />,
       },
-            
-        ]
-       
-    }
-])
-
+    ],
+  },
+]);
