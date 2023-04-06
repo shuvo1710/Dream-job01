@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+
 import dreamJob from "../../assets/Dream-job-logo-preview.png";
 import { Link, useLocation } from "react-router-dom";
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +10,10 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#011025]">
+
       <div className="px-4 py-5 mx-auto sm:max-w-xl  md:max-w-full lg:max-w-full md:px-24 lg:px-8">
+
+    
         <div className="relative flex items-center justify-between">
           <div className="flex items-center">
             <a
@@ -18,11 +23,13 @@ const Navbar = () => {
               className="inline-flex items-center mr-8"
             >
               <img className="w-14" src={dreamJob} alt="" />
+
               <span className="ml-2 text-xl font-bold tracking-wide text-[#C8C000] uppercase">
                 DreamJob
               </span>
             </a>
             <ul className="flex items-center hidden space-x-8 lg:flex">
+
               <li
                 className={`font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 ${
                   location.pathname === "/" ? "text-yellow-400" : ""
@@ -41,6 +48,8 @@ const Navbar = () => {
                   to="/feature"
                   aria-label="Our product"
                   title="Our product"
+                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+
                 >
                   Features
                 </Link>
@@ -69,24 +78,26 @@ const Navbar = () => {
           </div>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/signin"
                 aria-label="Sign in"
                 title="Sign in"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-[#C8C000]"
               >
                 Sign in
-              </a>
+              </Link>
             </li>
             <li>
+                        
               <a
                 href="/"
+          
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-[#C8C000] hover:bg-white text-black focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
               >
                 Sign up
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="lg:hidden">
@@ -124,6 +135,7 @@ const Navbar = () => {
                       >
                         <img classNameName="w-8" src={dreamJob} alt="" />
                         <span className="ml-2 text-xl font-bold tracking-wide text-[#C8C000] uppercase">
+
                           DreamJob
                         </span>
                       </a>
@@ -197,14 +209,15 @@ const Navbar = () => {
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/signup"
+
                           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-[#C8C000] hover:bg-white focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
                         >
                           Sign up
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
