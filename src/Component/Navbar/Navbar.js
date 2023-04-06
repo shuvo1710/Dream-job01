@@ -1,13 +1,19 @@
 import React, { useState } from "react";
-import dreamJob from "../../assets/dream.png";
-import { Link } from "react-router-dom";
+
+import dreamJob from "../../assets/Dream-job-logo-preview.png";
+import { Link, useLocation } from "react-router-dom";
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <div className="bg-[#011025]">
-      <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-full md:px-24 lg:px-8">
+
+      <div className="px-4 py-5 mx-auto sm:max-w-xl  md:max-w-full lg:max-w-full md:px-24 lg:px-8">
+
+    
         <div className="relative flex items-center justify-between">
           <div className="flex items-center">
             <a
@@ -16,28 +22,34 @@ const Navbar = () => {
               title="Company"
               className="inline-flex items-center mr-8"
             >
-              <img className="w-8" src={dreamJob} alt="" />
+              <img className="w-14" src={dreamJob} alt="" />
+
               <span className="ml-2 text-xl font-bold tracking-wide text-[#C8C000] uppercase">
                 DreamJob
               </span>
             </a>
             <ul className="flex items-center hidden space-x-8 lg:flex">
-              <li>
-                <Link
-                  to="/"
-                  aria-label="Our product"
-                  title="Our product"
-                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                >
+
+              <li
+                className={`font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 ${
+                  location.pathname === "/" ? "text-yellow-400" : ""
+                }`}
+              >
+                <Link to="/" aria-label="Our product" title="Our product">
                   Product
                 </Link>
               </li>
-              <li>
+              <li
+                className={`font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 ${
+                  location.pathname === "/feature" ? "text-yellow-400" : ""
+                }`}
+              >
                 <Link
                   to="/feature"
                   aria-label="Our product"
                   title="Our product"
                   className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+
                 >
                   Features
                 </Link>
@@ -76,8 +88,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/signup"
+                        
+             <Link
+          
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-[#C8C000] hover:bg-white text-black focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
@@ -119,8 +132,9 @@ const Navbar = () => {
                         title="Company"
                         className="inline-flex items-center"
                       >
-                        <img className="w-8" src={dreamJob} alt="" />
-                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 text-[#C8C000] uppercase">
+                        <img classNameName="w-8" src={dreamJob} alt="" />
+                        <span className="ml-2 text-xl font-bold tracking-wide text-[#C8C000] uppercase">
+
                           DreamJob
                         </span>
                       </a>
@@ -196,6 +210,7 @@ const Navbar = () => {
                       <li>
                         <Link
                           to="/signup"
+
                           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-[#C8C000] hover:bg-white focus:shadow-outline focus:outline-none"
                           aria-label="Sign up"
                           title="Sign up"
