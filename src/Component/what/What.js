@@ -65,7 +65,7 @@ const What = () => {
             <figure><img className='w-[40px] rounded-full mx-5 mt-5 ' src={shakib} alt="Shoes" /></figure>
             <div className="card-body">
               <h2 className="card-title">John Doe Marquina</h2>
-              <p className='text-[#C4C4C466]'>Software advocate</p>
+              <p className='text-[#999999]'>Software advocate</p>
               <p className='text-[#999999] pb-5'>It was great to seek for a job with TheJobportal.
                 Everything was really great. They were the ones who helped me to get my current job as a software advocate at my company I don’t want to mention.</p>
             </div>
@@ -76,7 +76,7 @@ const What = () => {
           <figure><img className='w-[40px] rounded-full mx-5 mt-5 ' src={shakib} alt="Shoes" /></figure>
           <div className="card-body">
             <h2 className="card-title">John Doe Marquina</h2>
-            <p className='text-[#C4C4C466]'>Software advocate</p>
+            <p className='text-[#999999]'>Software advocate</p>
             <p className='text-[#999999] pb-5'>It was great to seek for a job with TheJobportal.
               Everything was really great. They were the ones who helped me to get my current job as a software advocate at my company I don’t want to mention.</p>
 
@@ -88,7 +88,7 @@ const What = () => {
           <figure><img className='w-[40px] rounded-full mx-5 mt-5 ' src={shakib} alt="Shoes" /></figure>
           <div className="card-body">
             <h2 className="card-title">John Doe Marquina</h2>
-            <p className='text-[#C4C4C466]'>Software advocate</p>
+            <p className='text-[#999999]'>Software advocate</p>
             <p className='text-[#999999] pb-5'>It was great to seek for a job with TheJobportal.
               Everything was really great. They were the ones who helped me to get my current job as a software advocate at my company I don’t want to mention.</p>
 
@@ -100,7 +100,7 @@ const What = () => {
           <figure><img className='w-[40px] rounded-full mx-5 mt-5 ' src={shakib} alt="Shoes" /></figure>
           <div className="card-body">
             <h2 className="card-title">John Doe Marquina</h2>
-            <p className='text-[#C4C4C466]'>Software advocate</p>
+            <p className='text-[#999999]'>Software advocate</p>
             <p className='text-[#999999] pb-5'>It was great to seek for a job with TheJobportal.
               Everything was really great. They were the ones who helped me to get my current job as a software advocate at my company I don’t want to mention.</p>
 

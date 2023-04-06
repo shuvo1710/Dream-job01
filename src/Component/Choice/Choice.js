@@ -16,7 +16,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Web development</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]'>Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
@@ -27,7 +27,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Product designer</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]'>Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
@@ -38,7 +38,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Financial accountant</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]' >Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
@@ -49,7 +49,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Civil engineer</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]'>Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
@@ -60,7 +60,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Electrician</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]'>Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
@@ -71,7 +71,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Web development</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]'>Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
@@ -82,7 +82,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Product designer</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]'>Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
@@ -93,7 +93,7 @@ const Choice = () => {
 			  <TbDiscount2Off className='choose__icon'></TbDiscount2Off>
 				<h3 className="flex-1 py-2 text-lg font-semibold leading-snug text-gray-700 group-hover/text-card:text-[#C8C000]">Electrician</h3>
 				<div className="flex flex-wrap justify-between space-x-2 text-xs text-gray-300">
-				  <span>Would you say no to somebody who want
+				  <span className='text-[#999999]'>Would you say no to somebody who want
 				  to help you land a job? That’s impossible.
 				  </span>
 				</div>
