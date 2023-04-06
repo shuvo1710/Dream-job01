@@ -15,7 +15,7 @@ const CareerGig = () => {
           <h2 className="text-4xl font-medium leading-10 text-[#999FA8]">
             120K+
           </h2>
-          <p className="text-xs leading-5 font-normal text-[#DFDFDF]">
+          <p className="text-xs leading-5 font-normal text-[#999999]">
             Career opportunities
           </p>
         </div>
@@ -23,7 +23,7 @@ const CareerGig = () => {
           <h2 className="text-4xl font-medium leading-10 text-[#999FA8]">
             1M+
           </h2>
-          <p className="text-xs leading-5 font-normal text-[#DFDFDF]">
+          <p className="text-xs leading-5 font-normal text-[#999999]">
             Jobs seekers
           </p>
         </div>
@@ -31,7 +31,7 @@ const CareerGig = () => {
           <h2 className="text-4xl font-medium leading-10 text-[#999FA8]">
             100k+
           </h2>
-          <p className="text-xs leading-5 font-normal text-[#DFDFDF]">
+          <p className="text-xs leading-5 font-normal text-[#999999]">
             Remote jobs
           </p>
         </div>
@@ -39,7 +39,7 @@ const CareerGig = () => {
           <h2 className="text-4xl font-medium leading-10 text-[#999FA8]">
             20K+
           </h2>
-          <p className="text-xs leading-5 font-normal text-[#DFDFDF]">
+          <p className="text-xs leading-5 font-normal text-[#999999]">
             Hiring companies
           </p>
         </div>
