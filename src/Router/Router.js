@@ -3,24 +3,35 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../Component/LayOut/Main";
 import Home from "../Component/Home/Home";
 import Features from "../Component/Features/Features";
-import SignIn from "../Component/SignIn/SignIn";
-import SignUp from "../SignUp/SignUp";
+import ChoiceListing from "../Component/Choice/ChoiceListing";
 
 export const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Main />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/feature",
-        element: <Features />,
-      },
-    ],
-  },
+
+
+
+    {
+        path:'/',
+        element:<Main/>,
+        children:[
+            {
+                path:"/",
+                element:<Home/>
+            },
+            {
+                path: "/feature",
+                element: <Features />,
+            },
+            {
+                path: "/choice-listing",
+                element: <ChoiceListing></ChoiceListing>
+            }
+            
+        ]
+       
+    }
+])
+
+
 
   {
     path: '/signin',
@@ -30,5 +41,6 @@ export const router = createBrowserRouter([
     path: '/signup',
     element: <SignUp/>
   }
+
 
 ]);
