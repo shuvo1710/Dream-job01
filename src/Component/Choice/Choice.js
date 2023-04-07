@@ -4,6 +4,7 @@ import "./Choice.css";
 import { useQuery } from '@tanstack/react-query';
 import ChoiceInfos from './ChoiceInfos';
 import Loading from '../Loading/Loading';
+import { TbDiscount2Off } from 'react-icons/tb';
 
 const Choice = () => {
 

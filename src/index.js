@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { QueryClient, QueryClientProvider, } from '@tanstack/react-query';
+import AuthProvider from './UserContext/AuthProvider/AuthProvider';
 
 // Create a client
 const queryClient = new QueryClient()
