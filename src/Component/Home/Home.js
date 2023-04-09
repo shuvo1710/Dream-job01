@@ -5,6 +5,7 @@ import Banner from "../Banner/Banner";
 import Choice from "../Choice/Choice";
 import What from "../what/What";
 import All from "../all/All";
+import Price from "../../price/Price";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ChooseUs></ChooseUs>
       <What></What>
       <All></All>
+      <Price></Price>
     </div>
   );
 };
