@@ -90,7 +90,7 @@ const Navbar = () => {
             <li>
                         
              <Link
-          
+                to="/signup"
                 className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide transition duration-200 rounded shadow-md bg-[#C8C000] hover:bg-white text-black focus:shadow-outline focus:outline-none"
                 aria-label="Sign up"
                 title="Sign up"
