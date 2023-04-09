@@ -8,8 +8,8 @@ import { GiSelfLove} from 'react-icons/gi';
 
 const Price = () => {
     return (
-        <div className='grid grid-cols-2'>
-            <div><h1>price</h1>
+        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-2 mb-2'>
+            <div className='ml-8'><h1>price</h1>
             <div className="form-control">
   <div className="input-group">
     <input type="text" placeholder="price…" className="input input-bordered" />
@@ -49,39 +49,43 @@ const Price = () => {
 </div>
             </div>
            <div>
-           <div className='m-4'><p>Showing 4 of 257 places</p>
-            <div className='mt-6'>
+           <div className='mx-2'><p>Showing 4 of 257 places</p>
+           <div className='mt-6'>
             <div className="card card-side bg-base-100 shadow-xl">
-  <figure><img src={dream} alt="Movie"/></figure>
-  <div className="card-body">
-   <div className='grid grid-cols-2'>
+  <figure><img src={dream} className='w-full object-cover h-[200px]' alt="Movie"/></figure>
+  <div className=" w-full mx-2">
+   <div className=' flex'>
     <div>
-    <h1>CVK Park Bosphorus Hotel Istanbul</h1>
+    <h1 className='text-[20px]'>CVK Park Bosphorus Hotel Istanbul</h1>
     <div className='flex'>
         <ImLocation2></ImLocation2>
 
-        <p>
+        <p className='text-[12px]'>
 Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437
 </p>
     </div>
     <div className='flex'>
-        <div>
-           <div className='flex'> <AiFillStar></AiFillStar>
+        <div className='flex'>
+           <div className='flex w-[40px]'> <AiFillStar className=''></AiFillStar>
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar></div>
-            <p>5 star Hotel</p>
+            <p className='w-[71px] h-[15px] text-[12px]'>5 star Hotel</p>
         </div>
         <div className='flex'>
-            <RiCupFill></RiCupFill>
-            <p>20+ animents</p>
+            <RiCupFill className='w-[12px]'></RiCupFill>
+            <p className='w-[71px] h-[15px] text-[10px]'>20+ animents</p>
         </div>
-        <p>very good 371 reviews</p>
+       
+    </div>
+    <div className='flex'>
+      <p className='text-[12px]'>4.2</p>
+      <p className='text-[12px]'>very good 371 reviews</p>
     </div>
     </div>
     <div>
-    <div>
+    <div className='mx-2'>
     <p>starting</p>
             <h1>$ 240 /night</h1>
             <p>ext .tax</p>
@@ -95,43 +99,47 @@ Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437
     <div className="card-actions justify-end">
       <button className="btn btn-primary">Watch</button>
     </div> */}
-    <div className='flex'> <GiSelfLove></GiSelfLove>
-                <button className='btn btn-success'>View place</button></div>
+    <div className='flex mt-12'> 
+                <button className='btn btn-success w-[428px]'>View place</button></div>
   </div>
 </div>
            </div>
-            <div className='mt-6'>
+           <div className='mt-6'>
             <div className="card card-side bg-base-100 shadow-xl">
-  <figure><img src={dream} alt="Movie"/></figure>
-  <div className="card-body">
-   <div className='grid grid-cols-2'>
+  <figure><img src={dream} className='w-full object-cover h-[200px]' alt="Movie"/></figure>
+  <div className=" w-full mx-2">
+   <div className=' flex'>
     <div>
-    <h1>CVK Park Bosphorus Hotel Istanbul</h1>
+    <h1 className='text-[20px]'>CVK Park Bosphorus Hotel Istanbul</h1>
     <div className='flex'>
         <ImLocation2></ImLocation2>
 
-        <p>
+        <p className='text-[12px]'>
 Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437
 </p>
     </div>
     <div className='flex'>
-        <div>
-           <div className='flex'> <AiFillStar></AiFillStar>
+        <div className='flex'>
+           <div className='flex w-[40px]'> <AiFillStar className=''></AiFillStar>
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar>
             <AiFillStar></AiFillStar></div>
-            <p>5 star Hotel</p>
+            <p className='w-[71px] h-[15px] text-[12px]'>5 star Hotel</p>
         </div>
         <div className='flex'>
-            <RiCupFill></RiCupFill>
-            <p>20+ animents</p>
+            <RiCupFill className='w-[12px]'></RiCupFill>
+            <p className='w-[71px] h-[15px] text-[10px]'>20+ animents</p>
         </div>
-        <p>very good 371 reviews</p>
+       
+    </div>
+    <div className='flex'>
+      <p className='text-[12px]'>4.2</p>
+      <p className='text-[12px]'>very good 371 reviews</p>
     </div>
     </div>
     <div>
-    <div>
+    <div className='mx-2'>
     <p>starting</p>
             <h1>$ 240 /night</h1>
             <p>ext .tax</p>
@@ -145,8 +153,8 @@ Gümüssuyu Mah. Inönü Cad. No:8, Istanbul 34437
     <div className="card-actions justify-end">
       <button className="btn btn-primary">Watch</button>
     </div> */}
-    <div className='flex'> <GiSelfLove></GiSelfLove>
-                <button className='btn btn-success'>View place</button></div>
+    <div className='flex mt-12'> 
+                <button className='btn btn-success w-[428px]'>View place</button></div>
   </div>
 </div>
            </div>
