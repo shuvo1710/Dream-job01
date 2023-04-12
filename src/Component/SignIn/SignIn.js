@@ -22,8 +22,8 @@ const SignIn = () => {
       });
   };
   return (
-    <div className="hero my-20">
-      <div className="hero-content flex-col lg:flex-row grid md:grid-cols-2 gap-20">
+    <div className="hero h-screen">
+      <div className="flex-col lg:flex-row grid md:grid-cols-2">
         <div className="text-center lg:text-left">
           <img src={img} alt='' />
         </div>
