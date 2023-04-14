@@ -7,6 +7,9 @@ import ChoiceListing from "../Component/Choice/ChoiceListing";
 import SignIn from "../Component/SignIn/SignIn";
 import SignUp from "../SignUp/SignUp";
 import Searchbar from "../Component/Searchbar/Searchbar";
+import DashboardLayout from "./dashboard/DashboardLayout";
+import Dashboard from "./dashboard/Dashboard";
+import Cv from "./dashboard/Cv";
 
 export const router = createBrowserRouter([
   {
@@ -47,4 +50,19 @@ export const router = createBrowserRouter([
     path: "/signup",
     element: <SignUp />,
   },
+  {
+    path:"/dashboard",
+    element:<DashboardLayout></DashboardLayout>,
+    children:[
+      {
+        path:"/dashboard",
+        element:<Dashboard></Dashboard>
+
+      },
+      {
+        path:"/dashboard/cv",
+        element:<Cv></Cv>
+      }
+    ]
+  }
 ]);
