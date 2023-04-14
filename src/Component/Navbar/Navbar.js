@@ -78,6 +78,16 @@ const Navbar = () => {
                   Search
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/dashboard"
+                  aria-label="About us"
+                  title="About us"
+                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >
+                  Dashboard
+                </Link>
+              </li>
             </ul>
           </div>
           <ul className="flex items-center hidden space-x-8 lg:flex">
